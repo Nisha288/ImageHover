@@ -1,0 +1,22 @@
+<mvc:View controllerName="ImageHoverApp.ImageHoverApp.controller.View1" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:f="sap.f">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Image src="/Img1.png" id="image0" densityAware="false">
+							<dependents>
+								<ResponsivePopover id="popover" showHeader="false">
+									<content>
+										<f:Avatar src="/Img1.png" class="sapUiSmallMargin" displaySize="Custom" displayShape="Square" customDisplaySize="500px"
+											imageFitType="Contain"/>
+									</content>
+								</ResponsivePopover>
+							</dependents>
+						</Image>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
